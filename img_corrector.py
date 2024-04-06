@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw
 import numpy as np
+import os
 
 def process_image(image_path, coordinates):
     img = Image.open(image_path)
@@ -23,7 +24,6 @@ def process_image(image_path, coordinates):
 
 coordinates = (110, 45, 160, 95) 
 
-import os
 
 for file in os.listdir("images/landsat9_c2l2_sr"):
     if file.endswith("_mask.png"):
