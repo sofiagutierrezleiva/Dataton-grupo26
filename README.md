@@ -30,7 +30,7 @@ El modelo no funcinó como esperabamos por varias razones, pero destaca la falta
 
 Ante esta situación, y dado que encontramos SAM, un modelo de segmentación de imágenes desarrollado por META, optamos por implementar dicho modelo en nuestro área de enfoque, entrenándola con nuestros datos (lo cual realmente no afectó tanto dado que tenía un trasfondo de billones de imagenes a lo que le agregamos aproximadamente 10.000 mas), y centrarnos en el análisis de superficie. Esto se traduce en que obtenemos la segmentación del glaciar y utilizando una escala según cuantos metros representa cada pixel, obtenemos la superficie del glaciar en la imagen seleccionada. Ideamos un método para seleccionar la máscara correcta para cada imágen pero no tuvimos tiempo para implementarlo.
 
-Para correr el código basta con correr el archivo main.ipynb
+Para correr el código basta con correr el archivo main.ipynb, aquí debemos anotar la escala de la imágen (metros/pixel) y cambiar el path de la imagen analizada.
   
 ### Links de bibliografía:
 * https://www.nature.com/articles/s41467-021-26578-0
